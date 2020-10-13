@@ -1,0 +1,11 @@
+<table class= "table">
+  <tr>
+    <th>Họ tên</th>
+    <th>Điểm Thi</th>
+  </tr>
+  <tr *ngFor ="let m of s">
+    <td>{{m.hoten}}</td>
+    <td>{{m.dthi}}</td>
+  </tr>
+</table>
+<button class="btn btn-danger" (click)="Tinh()" >Sắp Xếp</button>
